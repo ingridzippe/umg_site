@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Cormorant+Unicase:400,300);
 
 body {
-  background-color: #242424;
+  background-color: #fff;
   color: #000;
 }
 .main-body {
@@ -14,6 +14,13 @@ body {
   z-index: -1;
   /* border: 1px solid #000; */
 	/* border-bottom: 2px solid #ededed; */
+}
+.topic-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
 }
 .row {
   width: 100%;
@@ -159,11 +166,22 @@ body {
   color: #000;
   font-size: 30px;
 }
+.arrow {
+  position: absolute;
+  top: 40px;
+  left: 14%;
+  width: 50px;
+}
+#arrow {
+  text-decoration: none;
+  color: #000;
+  font-size: 30px;
+}
 .heading-bold {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 27px;
 	font-weight: bold;
-	margin-top: 20px;
+	margin-top: 40px;
   margin-bottom: 0;
   padding: 0;
   text-align: center;
@@ -181,6 +199,8 @@ body {
 	margin-right: 2.1%;
 }
 .description {
+  margin-left: 5%;
+  margin-right: 5%;
   text-align: center;
 	font-size: 20px;
 	margin-bottom: 0px;
@@ -212,6 +232,10 @@ body {
 .threedcenter {
   margin: auto;
   width: 90%;
+}
+.threedvid {
+  text-align: center;
+  margin-top: 40px;
 }
 .threedphoto {
   display: block;
@@ -384,11 +408,15 @@ body {
   background-position: 37% 55%;
   background-size: 155%;
 }
+.biobox {
+  margin-left: 5%;
+  margin-right: 6%;
+}
 .biophoto {
   float: left;
   margin-right: 35px;
   margin-bottom: 12px;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   height: 350px;
   width: 420px;
   background: url("photos/photo/bio.png") no-repeat;
